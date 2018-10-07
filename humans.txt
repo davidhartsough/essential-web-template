@@ -1,0 +1,8 @@
+# humanstxt.org/
+
+/* TEAM */
+__ROLE__: __AUTHOR__
+Site: http://example.com
+
+/* THANKS */
+__AUTHOR__
