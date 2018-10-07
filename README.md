@@ -7,9 +7,13 @@ Everything you need for search engines, social media sharing, and mobile web app
 
 (I made this so I could stop forgetting this important jazz.)
 
+## Use
+
+Just go ahead and clone this, silly!
+
 ## What you'll need to change
 
-#### `index.html`
+### `index.html`
 
 | what to change         | example                               |
 | ---------------------- | ------------------------------------- |
@@ -24,7 +28,7 @@ Everything you need for search engines, social media sharing, and mobile web app
 | `yourprofile`          | georgewashington                      |
 | `#000000`              | `#42A5F5`                             |
 
-#### `humans.txt`
+### `humans.txt`
 
 | what to change | example              |
 | -------------- | -------------------- |
@@ -32,7 +36,7 @@ Everything you need for search engines, social media sharing, and mobile web app
 | `__AUTHOR__`   | George Washington    |
 | `example.com`  | georgewashington.com |
 
-#### `manifest.json`
+### `manifest.json`
 
 | what to change  | example           |
 | --------------- | ----------------- |
@@ -41,11 +45,11 @@ Everything you need for search engines, social media sharing, and mobile web app
 | `#000000`       | `#42A5F5`         |
 | `#000000`       | `#f8f8f8`         |
 
-#### `browserconfig.xml`
+### `browserconfig.xml`
 
 Change the tile color from `#000000` to your theme color (#42A5F5).
 
-#### images
+### Images
 
 **Pro tip**: Use the [real favicon generator](http://realfavicongenerator.net/).
 
