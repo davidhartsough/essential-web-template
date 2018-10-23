@@ -78,10 +78,12 @@
 <script>
   var table = new DataTable(".table", {
 	ajax: {
-		url: "https://script.google.com/macros/s/AKfycbx77KgS5yu1OKLMjP32DlRI5jrndw0I-HOGbpv59C7WVY2KEHyq/exec",
+		url: "https://script.google.com/macros/s/AKfycbz7X0b8AsN7JUez8LWBbqB9acqVRcf6Xan_MEPtg0pYQMV2g9U/exec",
 		content: {
-			type: "json",
-			headings: true
+		    type: "csv", // specify the content,
+		    headings: true,
+		    lineDelimiter: "\n",
+		    columnDelimiter: ","
 		}
 	}
 });
