@@ -1,0 +1,52 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  color: rgba(0, 0, 0, 0.8);
+  background-color: #fcfcfd;
+  font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue,
+    sans-serif;
+  min-width: 20rem;
+  line-height: 1.25;
+}
+main {
+  padding: 2rem;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 0 2rem;
+  margin-top: 1rem;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-bottom: 0.5rem;
+}
+h1,
+h2 {
+  font-weight: 300;
+}
+h3,
+h4 {
+  font-weight: 500;
+}
+p {
+  margin: 0.5em 0;
+}
+ul,
+ol {
+  margin: 0.5rem 0;
+  padding-inline-start: 2rem;
+}
+ul ul,
+ul ol,
+ol ul,
+ol ol {
+  margin: 0;
+}
